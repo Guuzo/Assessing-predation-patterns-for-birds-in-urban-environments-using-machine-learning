@@ -1,0 +1,11 @@
+#path to label and image folder
+path: your path
+# training folder
+train: images/train
+# validation folder
+val: images/validation
+#classes for predicting
+names:
+  0: Green
+  1: Other
+  2: Non caterpillar
