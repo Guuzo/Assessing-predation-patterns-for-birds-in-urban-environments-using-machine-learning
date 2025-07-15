@@ -55,7 +55,7 @@ for idx, filename in enumerate(video_files, start=1):
 # Retrieve video properties
     width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-    fps = cap.get(cv2.CAP_PROP_FPS) or 30.0  # Default to 30 FPS if unknown
+    fps = cap.get(cv2.CAP_PROP_FPS) or 30.0
 
 # temporary output path and video writer
     temp_output_path = os.path.join(output_folder, f"temp_{filename}")
